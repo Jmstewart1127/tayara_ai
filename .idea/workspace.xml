@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bf519d0-5084-48e8-a11c-74a02755779e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tayaraAI.py" afterPath="$PROJECT_DIR$/tayaraAI.py" />
     </list>
@@ -28,8 +29,8 @@
       <file leaf-file-name="tayaraAI.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tayaraAI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            <state relative-caret-position="495">
+              <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -379,6 +380,14 @@
       <option name="presentableId" value="Default" />
       <updated>1540071626727</updated>
     </task>
+    <task id="LOCAL-00001" summary="Enable static files download">
+      <created>1540072702217</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540072702218</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -408,6 +417,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Enable static files download" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enable static files download" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -423,8 +436,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tayaraAI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        <state relative-caret-position="495">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>

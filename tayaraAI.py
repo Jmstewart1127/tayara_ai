@@ -32,4 +32,4 @@ def upload():
 
 if __name__ == '__main__':
     ai_app = ClarifaiApp(api_key='3d82c70b4f4a4b028b992399737ac043')
-    app.run()
+    app.run(host='0.0.0.0', port=94001)
