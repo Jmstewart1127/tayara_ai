@@ -39,7 +39,7 @@ def predict():
     image_url = request.json['image']
     model = ai_app.public_models.general_model
     ai_respo = model.predict_by_url(url=image_url)
-    concept = ai_respo['outputs']['data']['concepts'][0]['name']
+    concept = ai_respo['outputs'][0]['data']['concepts'][0]['name']
     category = None
     sub_category = None
     for item in categories:
