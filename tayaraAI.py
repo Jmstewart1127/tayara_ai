@@ -17,7 +17,7 @@ ai_app = None
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    image_url = request.data['image']
+    image_url = request.json['image']
     model = ai_app.public_models.general_model
     ai_respo = model.predict_by_url(url=image_url)
     response = app.response_class(
