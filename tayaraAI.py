@@ -14,14 +14,42 @@ from clarifai.rest import ClarifaiApp
 
 ai_app = None
 
+categories = {
+    'Immobiliere': [
+        'house'
+    ],
+    'Véhicules': [],
+    'Pour la Maison et Jardin': [],
+    'Loisirs et Divertissement': [],
+    'Informatique et Multimedia': {
+        'Téléphones': ['phone', 'telephone', 'screen'],
+        'Image & Son': [],
+        'Ordinateur portables': ['computer', 'laptop'],
+        'Tablettes': [],
+        'Télévisions': ['tele', 'television', 'tv']
+    },
+    'Emploi et Services': [],
+    'Habillement et Bien Etre': [],
+    'Entreprises': []
+}
+
 
 @app.route('/predict', methods=['POST'])
 def predict():
     image_url = request.json['image']
     model = ai_app.public_models.general_model
     ai_respo = model.predict_by_url(url=image_url)
+    concept = ai_respo['outputs']['data']['concepts'][0]['name']
+    category = None
+    sub_category = None
+    for item in categories:
+        for subitem in item:
+            if concept.lower() in map(str.lower, subitem):
+                category = item
+                sub_category = subitem
+
     response = app.response_class(
-        response=json.dumps({'response': ai_respo}),
+        response=json.dumps({'category': category, 'sub_category': sub_category}),
         status=200,
         mimetype='application/json'
     )
