@@ -2,7 +2,7 @@ from django_common.http import json_response
 from flask import Flask, request
 from flask.ext.uploads import UploadSet, configure_uploads, IMAGES
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 
 photos = UploadSet('photos', IMAGES)
 
