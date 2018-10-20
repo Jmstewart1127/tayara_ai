@@ -43,7 +43,11 @@ def predict():
     category = None
     sub_category = None
     for item in categories:
+        print(item)
         for subitem in item:
+            print(subitem)
+            print(map(str.lower, subitem))
+            print(concept.lower())
             if concept.lower() in map(str.lower, subitem):
                 category = item
                 sub_category = subitem

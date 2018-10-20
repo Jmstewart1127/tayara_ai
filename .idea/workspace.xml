@@ -28,8 +28,8 @@
       <file leaf-file-name="tayaraAI.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tayaraAI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+            <state relative-caret-position="529">
+              <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -449,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540076157057</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Index outputs">
+      <created>1540076316181</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1540076316181</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -487,7 +494,8 @@
     <MESSAGE value="Change port" />
     <MESSAGE value="Fix image predict" />
     <MESSAGE value="Return tayara category" />
-    <option name="LAST_COMMIT_MESSAGE" value="Return tayara category" />
+    <MESSAGE value="Index outputs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Index outputs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -512,8 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tayaraAI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+        <state relative-caret-position="529">
+          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
