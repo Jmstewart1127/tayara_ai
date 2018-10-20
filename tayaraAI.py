@@ -1,6 +1,6 @@
-from django_common.http import json_response
 from flask import Flask, request
 from flask.ext.uploads import UploadSet, configure_uploads, IMAGES
+from flask import json
 
 app = Flask(__name__, static_url_path='/static')
 
@@ -18,16 +18,24 @@ ai_app = None
 def predict():
     image_url = request.data['image']
     model = ai_app.public_models.general_model
-    response = model.predict_by_url(url=image_url)
-    return json_response({
-        'response': response
-    }, status_code=201)
+    ai_respo = model.predict_by_url(url=image_url)
+    response = app.response_class(
+        response=json.dumps({'response': ai_respo}),
+        status=200,
+        mimetype='application/json'
+    )
+    return response
 
 
 @app.route('/upload', methods=['POST'])
 def upload():
     filename = photos.save(request.files['photo'])
-    return json_response({'name': filename}, status_code=201)
+    response = app.response_class(
+        response=json.dumps({'name': filename}),
+        status=200,
+        mimetype='application/json'
+    )
+    return response
 
 
 if __name__ == '__main__':
