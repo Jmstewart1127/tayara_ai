@@ -15,12 +15,18 @@ from clarifai.rest import ClarifaiApp
 ai_app = None
 
 categories = {
-    'Immobiliere': [
-        'house'
-    ],
-    'Véhicules': [],
-    'Pour la Maison et Jardin': [],
-    'Loisirs et Divertissement': [],
+    'Immobiliere': {
+        'Apparetment': ['house']
+    },
+    'Véhicules': {
+        'Voiture': []
+    },
+    'Pour la Maison et Jardin': {
+
+    },
+    'Loisirs et Divertissement': {
+
+    },
     'Informatique et Multimedia': {
         'Téléphones': ['phone', 'telephone', 'screen'],
         'Image & Son': [],
@@ -28,9 +34,15 @@ categories = {
         'Tablettes': [],
         'Télévisions': ['tele', 'television', 'tv']
     },
-    'Emploi et Services': [],
-    'Habillement et Bien Etre': [],
-    'Entreprises': []
+    'Emploi et Services': {
+
+    },
+    'Habillement et Bien Etre': {
+
+    },
+    'Entreprises': {
+
+    }
 }
 
 
@@ -42,13 +54,12 @@ def predict():
     concept = ai_respo['outputs'][0]['data']['concepts'][0]['name']
     category = None
     sub_category = None
-    for item in categories:
+    for item, value in categories.items():
         print(item)
-        for subitem in item:
+        for subitem, value in value.items():
             print(subitem)
-            print(map(str.lower, subitem))
             print(concept.lower())
-            if concept.lower() in map(str.lower, subitem):
+            if concept.lower() in map(str.lower, value):
                 category = item
                 sub_category = subitem
 

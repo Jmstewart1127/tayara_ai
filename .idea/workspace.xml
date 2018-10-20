@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bf519d0-5084-48e8-a11c-74a02755779e" name="Default" comment="">
+    <list default="true" id="1bf519d0-5084-48e8-a11c-74a02755779e" name="Default" comment="Add debug">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tayaraAI.py" afterPath="$PROJECT_DIR$/tayaraAI.py" />
     </list>
@@ -28,8 +28,8 @@
       <file leaf-file-name="tayaraAI.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tayaraAI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+            <state relative-caret-position="427">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -456,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540076316181</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add debug">
+      <created>1540076430629</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1540076430629</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -495,7 +502,8 @@
     <MESSAGE value="Fix image predict" />
     <MESSAGE value="Return tayara category" />
     <MESSAGE value="Index outputs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Index outputs" />
+    <MESSAGE value="Add debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add debug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -520,8 +528,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tayaraAI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+        <state relative-caret-position="427">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
