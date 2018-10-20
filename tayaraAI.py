@@ -1,13 +1,14 @@
+import os
+
 from flask import Flask, request
-from flask.ext.uploads import UploadSet, configure_uploads, IMAGES
 from flask import json
+from werkzeug.utils import secure_filename
 
 app = Flask(__name__, static_url_path='/static')
 
-photos = UploadSet('photos', IMAGES)
+ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
 
-app.config['UPLOADED_PHOTOS_DEST'] = 'static/img'
-configure_uploads(app, photos)
+app.config['UPLOAD_FOLDER'] = 'static/img'
 
 from clarifai.rest import ClarifaiApp
 
@@ -26,15 +27,35 @@ def predict():
     )
     return response
 
+def allowed_file(filename):
+    return '.' in filename and \
+           filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 @app.route('/upload', methods=['POST'])
 def upload():
-    filename = photos.save(request.files['photo'])
-    response = app.response_class(
-        response=json.dumps({'name': filename}),
-        status=200,
-        mimetype='application/json'
-    )
+    response = None
+    if 'image' not in request.files:
+        response = app.response_class(
+            response=json.dumps({'error': 'No file to upload'}),
+            status=400,
+            mimetype='application/json'
+        )
+    image = request.files['image']
+    if image.filename == '':
+        response = app.response_class(
+            response=json.dumps({'error': 'No file to upload'}),
+            status=400,
+            mimetype='application/json'
+        )
+    if image and allowed_file(image.filename):
+        filename = secure_filename(image.filename)
+        image.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+        response = app.response_class(
+            response=json.dumps({'image': filename}),
+            status=200,
+            mimetype='application/json'
+        )
+
     return response
 
 
