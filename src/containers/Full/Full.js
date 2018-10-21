@@ -1,10 +1,7 @@
 import React, {Component} from 'react';
 import {Switch, Route, Redirect} from 'react-router-dom';
 import {Container} from 'reactstrap';
-import Header from '../../components/Header/';
-import Sidebar from '../../components/Sidebar/';
-import Breadcrumb from '../../components/Breadcrumb/';
-import Footer from '../../components/Footer/';
+import {Breadcrumb, Footer, Header, Sidebar} from '../../components';
 
 import ContentBot from '../../views/ContentBot/';
 import {EventEmitter} from  "fbemitter";
