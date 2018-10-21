@@ -92,7 +92,7 @@ class ContentBot extends Component {
                                 <p className="App-intro">
                                     Upload picture.
                                 </p>
-                                <FilePond name="image" server="/upload"/>
+                                <FilePond name="image" server="http://137.74.165.25:9402/upload"/>
                             </Col>
                         </Row>
                     </CardBody>
