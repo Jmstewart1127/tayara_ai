@@ -6,7 +6,7 @@ from flask_cors import CORS
 from werkzeug.utils import secure_filename
 
 app = Flask(__name__, static_url_path='/static')
-cors = CORS(app, resources={r"/*": {"origins": "*"}})
+CORS(app)
 
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
 
