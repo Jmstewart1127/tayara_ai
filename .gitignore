@@ -1,0 +1,37 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+package-lock.json
+
+# testing
+coverage
+
+# production
+build
+
+# misc
+.DS_Store
+Thumbs.db
+.env
+.idea
+npm-debug.log
+compilation-stats.json
+
+# dependencies
+content_collection/frontent/node_modules
+content_collection/frontent/package-lock.json
+
+# testing
+content_collection/frontent/coverage
+
+# production
+content_collection/frontent/build
+
+# misc
+content_collection/frontent/.DS_Store
+content_collection/frontent/Thumbs.db
+content_collection/frontent/.env
+content_collection/frontent/.idea
+content_collection/frontent/npm-debug.log
+content_collection/frontent/compilation-stats.json

@@ -2,7 +2,102 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bf519d0-5084-48e8-a11c-74a02755779e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf/wag_network.nix" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/avatar_head.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/avatars/avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/avatars/avatar_bw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/favicon.xcf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/favicon_hbots.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/hootsuite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/hootsuite.xcf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/logo-symbol.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/logo-symbol_hbots.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/logo.xcf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/logo_hbots.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/logo_o.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/robot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/robot_with_body.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.babelrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dockerfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf/mime.types" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf/nginx.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/deploy.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/_bootstrap-variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/_core-variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/_custom.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_animate.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_aside.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_avatars.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_badge.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_breadcrumb-menu.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_breadcrumb.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_callout.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_card.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_charts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_dropdown-menu-right.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_dropdown.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_footer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_input-group.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_layout.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_loading.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_mobile.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_modal.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_nav.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_navbar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_others.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_progress.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_rtl.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_sidebar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_switches.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_tables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_temp.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_typography.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_utilities.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/_widgets.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/utilities/_background.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/utilities/_borders.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/core/utilities/_display.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/style.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/vendors/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/vendors/chart.js/chart.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Breadcrumb/Breadcrumb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Breadcrumb/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Footer/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Header/HeaderDropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Header/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Sidebar/_nav.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Sidebar/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/SidebarFooter/SidebarFooter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/SidebarFooter/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/SidebarForm/SidebarForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/SidebarForm/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/SidebarHeader/SidebarHeader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/SidebarHeader/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/SidebarMinimizer/SidebarMinimizer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/SidebarMinimizer/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/Full/Full.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/Full/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/ContentBot/ContentBot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/ContentBot/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack.config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tayaraAI.iws" />
@@ -62,8 +157,8 @@
       <file leaf-file-name="ContentBot.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/ContentBot/ContentBot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="100" column="9" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
+            <state relative-caret-position="493">
+              <caret line="98" column="23" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -597,7 +692,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540076699551</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add frontend">
+      <created>1540084037984</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1540084037984</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -638,7 +740,8 @@
     <MESSAGE value="Index outputs" />
     <MESSAGE value="Add debug" />
     <MESSAGE value="Minor fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor fixes" />
+    <MESSAGE value="Add frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add frontend" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -805,8 +908,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/ContentBot/ContentBot.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="100" column="9" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
+        <state relative-caret-position="493">
+          <caret line="98" column="23" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
